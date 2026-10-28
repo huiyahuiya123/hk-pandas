@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>大熊猫之家 · 香港海洋公园 | Panda Family · Ocean Park Hong Kong</title>
+<meta name="description" content="香港海洋公园六只大熊猫——乐乐、盈盈、加加、得得、安安、可可的家庭介绍。The six giant pandas of Ocean Park Hong Kong.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='28' cy='26' r='16' fill='%2317364d'/%3E%3Ccircle cx='72' cy='26' r='16' fill='%2317364d'/%3E%3Ccircle cx='50' cy='55' r='36' fill='%23fff'/%3E%3Cellipse cx='36' cy='50' rx='9' ry='12' fill='%2317364d' transform='rotate(-18 36 50)'/%3E%3Cellipse cx='64' cy='50' rx='9' ry='12' fill='%2317364d' transform='rotate(18 64 50)'/%3E%3Ccircle cx='39' cy='48' r='3' fill='%23fff'/%3E%3Ccircle cx='61' cy='48' r='3' fill='%23fff'/%3E%3Cellipse cx='50' cy='68' rx='7' ry='5' fill='%2317364d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ================= Header ================= -->
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#top" aria-label="Home">
+    <svg width="36" height="36" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="28" cy="26" r="16" fill="#17364d"/><circle cx="72" cy="26" r="16" fill="#17364d"/>
+      <circle cx="50" cy="55" r="36" fill="#0067B0"/>
+      <ellipse cx="37" cy="50" rx="8" ry="11" fill="#fff" transform="rotate(-18 37 50)"/>
+      <ellipse cx="63" cy="50" rx="8" ry="11" fill="#fff" transform="rotate(18 63 50)"/>
+      <circle cx="39" cy="48" r="2.6" fill="#17364d"/><circle cx="61" cy="48" r="2.6" fill="#17364d"/>
+      <ellipse cx="50" cy="68" rx="7" ry="5" fill="#fff"/>
+    </svg>
+    <span>
+      <span class="brand-name" data-i18n="brand">大熊猫之家</span><br>
+      <span class="brand-sub">Ocean Park · Hong Kong</span>
+    </span>
+  </a>
+  <nav class="nav-links" aria-label="Main">
+    <a href="#family" data-i18n="nav_family">熊猫家族</a>
+    <a href="#members" data-i18n="nav_members">六位成员</a>
+    <a href="#daily" data-i18n="nav_daily">温馨日常</a>
+    <a href="#timeline" data-i18n="nav_timeline">成长历程</a>
+    <a href="#visit" data-i18n="nav_visit">参观指南</a>
+  </nav>
+  <div class="lang-switch" role="group" aria-label="Language">
+    <button data-lang="zh" class="active">简</button>
+    <button data-lang="hk">繁</button>
+    <button data-lang="en">EN</button>
+  </div>
+</header>
+
+<!-- ================= Hero ================= -->
+<main id="top">
+<section class="hero" aria-label="Panda family hero">
+  <img class="hero-img" src="assets/img/hero-family.jpg" alt="香港海洋公园大熊猫六口之家全家福" fetchpriority="high">
+  <div class="hero-inner">
+    <span class="hero-kicker" data-i18n="hero_kicker">香港海洋公园 · 大熊猫六口之家</span>
+    <h1 data-i18n-html="hero_title">海洋公园的<br><span class="accent">滚滚</span>一家人</h1>
+    <p class="hero-sub" data-i18n="hero_sub">从四川卧龙到香港仔，从两口之家到六口大家庭——认识乐乐、盈盈、加加、得得、安安和可可，见证这个打动全城的熊猫家庭。</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#members" data-i18n="hero_cta1">认识六位成员</a>
+      <a class="btn btn-ghost" href="#visit" data-i18n="hero_cta2">计划我的探访</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><b>6</b><span data-i18n="stat1">家庭成员</span></div>
+      <div class="hero-stat"><b>2</b><span data-i18n="stat2">香港出生</span></div>
+      <div class="hero-stat"><b>27<span style="font-size:.5em" data-i18n="stat3_unit">年</span></b><span data-i18n="stat3">熊猫情缘</span></div>
+      <div class="hero-stat"><b>3</b><span data-i18n="stat4">对赠港大熊猫</span></div>
+    </div>
+  </div>
+</section>
+<svg class="wave" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true" style="background:transparent">
+  <path d="M0,32 C240,56 480,8 720,24 C960,40 1200,16 1440,32 L1440,56 L0,56 Z" fill="#FFF9F1"></path>
+</svg>
+
+<!-- ================= Family ================= -->
+<section class="section reveal" id="family">
+  <div class="section-head">
+    <span class="section-kicker" data-i18n="family_kicker">熊猫家族</span>
+    <h2 data-i18n="family_title">三对大熊猫，一个大家庭</h2>
+    <p class="section-desc" data-i18n="family_desc">自1999年首对大熊猫落户以来，中央先后三次向香港赠送大熊猫。今天，海洋公园生活着三代六口：功勋父母、港产龙凤胎，还有新来的「安可」组合。</p>
+  </div>
+  <div class="pairs">
+    <article class="pair" style="--pair-c:#FF7A2F">
+      <span class="pair-tag" data-i18n="pair1_tag">2007 · 第二代赠港大熊猫</span>
+      <h3 data-i18n="pair1_name">乐乐 &amp; 盈盈</h3>
+      <p data-i18n="pair1_desc">相识17年，2024年春天自然交配成功，诞下香港首对大熊猫龙凤胎，圆了全城14年的期盼。</p>
+      <div class="pair-members" data-i18n="pair1_members">成员：乐乐（爸爸）· 盈盈（妈妈）· 加加 &amp; 得得（龙凤胎）</div>
+    </article>
+    <article class="pair" style="--pair-c:#1E7FC5">
+      <span class="pair-tag" data-i18n="pair2_tag">2024 · 港产龙凤胎</span>
+      <h3 data-i18n="pair2_name">加加 &amp; 得得</h3>
+      <p data-i18n="pair2_desc">2024年8月15日凌晨出生，是香港土生土长的第一对大熊猫。姐姐文静独立，弟弟活泼搞笑，人气横扫全城。</p>
+      <div class="pair-members" data-i18n="pair2_members">昵称：家姐（加加）· 细佬（得得）</div>
+    </article>
+    <article class="pair" style="--pair-c:#7CB342">
+      <span class="pair-tag" data-i18n="pair3_tag">2024 · 第三代赠港大熊猫</span>
+      <h3 data-i18n="pair3_name">安安 &amp; 可可</h3>
+      <p data-i18n="pair3_desc">2024年9月26日自四川都江堰抵港，入住四川奇珍馆。一个聪明外向，一个温顺爱攀爬，性格互补。</p>
+      <div class="pair-members" data-i18n="pair3_members">成员：安安（雄性）· 可可（雌性）</div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= Members ================= -->
+<section class="section reveal" id="members">
+  <div class="section-head">
+    <span class="section-kicker" data-i18n="members_kicker">六位成员</span>
+    <h2 data-i18n="members_title">每一只，都是独一无二的主角</h2>
+    <p class="section-desc" data-i18n="members_desc">点开任意一张卡片，看看它们的出生日期、性格特点和饲养员眼中的小秘密。</p>
+  </div>
+  <div class="members-grid" id="membersGrid"></div>
+  <p class="member-hint">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 11.5a5.5 5.5 0 1 1 6 5.48V19a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2.02A5.5 5.5 0 0 1 9 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 3v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <span data-i18n="members_hint">轻点卡片查看完整档案</span>
+  </p>
+</section>
+</main>
+
+<!-- ================= Panda Profile Modal ================= -->
+<div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalName">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+    </button>
+    <div class="modal-hero"><img id="modalImg" src="" alt=""></div>
+    <div class="modal-body">
+      <div class="modal-name-row">
+        <span class="modal-name" id="modalName"></span>
+        <span class="modal-en" id="modalEn"></span>
+      </div>
+      <span class="modal-role" id="modalRole"></span>
+      <div class="fact-grid">
+        <div class="fact"><b data-i18n="fact_gender">性别</b><span id="factGender"></span></div>
+        <div class="fact"><b data-i18n="fact_birth">出生日期</b><span id="factBirth"></span></div>
+        <div class="fact"><b data-i18n="fact_home">现居场馆</b><span id="factHome"></span></div>
+        <div class="fact"><b data-i18n="fact_look">认脸特征</b><span id="factLook"></span></div>
+        <div class="fact"><b data-i18n="fact_char">性格关键词</b><span id="factChar"></span></div>
+        <div class="fact"><b data-i18n="fact_weight">趣闻数据</b><span id="factWeight"></span></div>
+      </div>
+      <p class="modal-story" id="modalStory"></p>
+      <div class="modal-fun"><b data-i18n="fun_title">冷知识 ·&nbsp;</b><span id="modalFun"></span></div>
+    </div>
+  </div>
+</div>
+
+<div>
+<!-- ================= Daily life ================= -->
+<section class="section reveal" id="daily">
+  <div class="section-head">
+    <span class="section-kicker" data-i18n="daily_kicker">温馨日常</span>
+    <h2 data-i18n="daily_title">一家六口的治愈日常</h2>
+    <p class="section-desc" data-i18n="daily_desc">喝奶、撒娇、抢竹子、过生日——在海洋公园护理团队24小时的守护下，每一幕都是香港人的集体记忆。</p>
+  </div>
+  <div class="daily-wrap">
+    <div class="daily-scroll" id="dailyScroll">
+      <article class="daily-card">
+        <img src="assets/img/daily-1.jpg" alt="盈盈哺育龙凤胎" loading="lazy">
+        <div class="dc-body">
+          <h3 data-i18n="daily1_t">妈妈的爱</h3>
+          <p data-i18n="daily1_p">出生仅122克和112克的两只小不点，在盈盈和护理团队24小时轮班守护下「暴风成长」——第一次喝奶、第一次睁眼、第一次爬行。</p>
+        </div>
+      </article>
+      <article class="daily-card">
+        <img src="assets/img/daily-2.jpg" alt="龙凤胎庆祝生日" loading="lazy">
+        <div class="dc-body">
+          <h3 data-i18n="daily2_t">生日大派对</h3>
+          <p data-i18n="daily2_p">每年的八月，海洋公园都为八月寿星一家操办生日会：专属冰蛋糕、五米高寿桃山、全城派发的生日帽——连续两年轰动香港。</p>
+        </div>
+      </article>
+      <article class="daily-card">
+        <img src="assets/img/daily-3.jpg" alt="一家饭后慵懒时光" loading="lazy">
+        <div class="dc-body">
+          <h3 data-i18n="daily3_t">午后慵懒时光</h3>
+          <p data-i18n="daily3_p">饭后的保留节目：爸爸妈妈排排坐啃竹子，两个小家伙则在「游戏室」里追逐翻滚，累了就一头栽进妈妈怀里。</p>
+        </div>
+      </article>
+    </div>
+    <div class="daily-nav">
+      <button id="dailyPrev" aria-label="Previous">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button id="dailyNext" aria-label="Next">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="compare">
+    <div class="compare-side" style="--cc:#4FB3E8">
+      <h3 data-i18n="cmp_jj_t">加加 · 文静长公主</h3>
+      <ul>
+        <li data-i18n="cmp_jj_1">谨慎独立，性格像妈妈盈盈</li>
+        <li data-i18n="cmp_jj_2">喜欢独自攀爬树木、探索栖息地</li>
+        <li data-i18n="cmp_jj_3">训练时沉稳专注，配合检查不反抗</li>
+        <li data-i18n="cmp_jj_4">吃生日蛋糕自带「大姐大」气场</li>
+      </ul>
+    </div>
+    <div class="compare-side" style="--cc:#F5B921">
+      <h3 data-i18n="cmp_dd_t">得得 · 香港顶流喜剧熊</h3>
+      <ul>
+        <li data-i18n="cmp_dd_1">外向活泼，性格像爸爸乐乐</li>
+        <li data-i18n="cmp_dd_2">妈妈的「小跟屁虫」，有点动静就跑得飞快</li>
+        <li data-i18n="cmp_dd_3">爱抱大腿、咬雨靴、掀草皮，笑料不断</li>
+        <li data-i18n="cmp_dd_4">天生镜头感，笑容灿烂自带明星范</li>
+      </ul>
+    </div>
+  </div>
+  <div class="compare-vs" data-i18n="cmp_vs">一对龙凤胎，两种小性格</div>
+</section>
+
+<!-- ================= Timeline ================= -->
+<section class="section reveal" id="timeline">
+  <div class="section-head">
+    <span class="section-kicker" data-i18n="tl_kicker">成长历程</span>
+    <h2 data-i18n="tl_title">二十七载熊猫情缘</h2>
+    <p class="section-desc" data-i18n="tl_desc">从1999到2026，香港与大熊猫的故事，每一个节点都值得铭记。</p>
+  </div>
+  <div class="timeline">
+    <div class="tl-item" style="--tlc:#7CB342">
+      <span class="tl-date" data-i18n="tl1_d">1999</span>
+      <h3 data-i18n="tl1_t">首对赠港大熊猫落户</h3>
+      <p data-i18n="tl1_p">为庆祝香港回归两周年，中央政府赠送的大熊猫「安安」「佳佳」定居海洋公园，掀起第一波熊猫热。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#0067B0">
+      <span class="tl-date" data-i18n="tl2_d">2007.04.26</span>
+      <h3 data-i18n="tl2_t">乐乐盈盈抵达香港</h3>
+      <p data-i18n="tl2_p">第二对赠港大熊猫「乐乐」「盈盈」自四川卧龙抵达，同年7月1日起与公众见面，一住就是近二十年。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#FF7A2F">
+      <span class="tl-date" data-i18n="tl3_d">2024.03</span>
+      <h3 data-i18n="tl3_t">自然交配成功</h3>
+      <p data-i18n="tl3_p">17岁的乐乐与盈盈成功自然交配。盈盈出现减食等怀孕迹象，护理团队开始全天候守护。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#F25C7A">
+      <span class="tl-date" data-i18n="tl4_d">2024.08.15</span>
+      <h3 data-i18n="tl4_t">港产龙凤胎诞生</h3>
+      <p data-i18n="tl4_p">盈盈在19岁生日前一日凌晨诞下龙凤胎「加加」（2:05，122克）与「得得」（3:27，112克），成为全球有记录以来最年长初次成功产子的大熊猫，写下香港保育史奇迹。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#1E7FC5">
+      <span class="tl-date" data-i18n="tl5_d">2024.09.26</span>
+      <h3 data-i18n="tl5_t">安安可可入驻</h3>
+      <p data-i18n="tl5_p">第三对赠港大熊猫「安安」「可可」从都江堰飞抵香港，入住四川奇珍馆。香港正式拥有6只大熊猫。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#F5B921">
+      <span class="tl-date" data-i18n="tl6_d">2025.02.16</span>
+      <h3 data-i18n="tl6_t">龙凤胎公众首秀</h3>
+      <p data-i18n="tl6_p">半岁的加加得得正式在「大熊猫之旅」与公众见面，首日吸引约5000名访客入场，数千人观看直播。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#4FB3E8">
+      <span class="tl-date" data-i18n="tl7_d">2025.05.27</span>
+      <h3 data-i18n="tl7_t">正式命名「加加」「得得」</h3>
+      <p data-i18n="tl7_p">从超过35,700份市民命名建议中选出正式名字：姐姐叫「加加」，弟弟叫「得得」，寓意好事加加、幸福得得。</p>
+    </div>
+    <div class="tl-item" style="--tlc:#7CB342">
+      <span class="tl-date" data-i18n="tl8_d">2026.08</span>
+      <h3 data-i18n="tl8_t">两岁生日 · 展望未来</h3>
+      <p data-i18n="tl8_p">龙凤胎迎来两岁生日，体重均突破60公斤，已认得自己名字并掌握基础目标训练。配合牠们三岁后的生活需要，全新大熊猫展馆预计于2027年开放。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Visit ================= -->
+<section class="section reveal" id="visit">
+  <div class="section-head">
+    <span class="section-kicker" data-i18n="visit_kicker">参观指南</span>
+    <h2 data-i18n="visit_title">来海洋公园看牠们</h2>
+    <p class="section-desc" data-i18n="visit_desc">六位家庭成员分居两个场馆，安排路线时记得两边都去。</p>
+  </div>
+  <div class="visit-grid">
+    <article class="venue">
+      <div class="venue-band" style="--vc:#0067B0">
+        <h3 data-i18n="venue1_t">大熊猫之旅</h3>
+        <span class="venue-en">Giant Panda Adventure · The Waterfront</span>
+      </div>
+      <div class="venue-body">
+        <div class="venue-row">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#0067B0" stroke-width="1.8"/><path d="M12 7v5l3.5 2" stroke="#0067B0" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <span><b data-i18n="hours">开放时间</b>　<span data-i18n="venue1_hours">10:00 – 17:30</span></span>
+        </div>
+        <div class="venue-pandas">
+          <span>乐乐 Le Le</span><span>盈盈 Ying Ying</span><span>加加 Jia Jia</span><span>得得 De De</span>
+        </div>
+        <p style="font-size:13.5px;color:var(--ink-soft)" data-i18n="venue1_p">这里住着幸福的四口之家：看完爸爸妈妈，别忘了去展馆中间区域的游戏室找龙凤胎姐弟。</p>
+      </div>
+    </article>
+    <article class="venue">
+      <div class="venue-band" style="--vc:#7CB342">
+        <h3 data-i18n="venue2_t">香港赛马会四川奇珍馆</h3>
+        <span class="venue-en">HK Jockey Club Sichuan Treasures · The Waterfront</span>
+      </div>
+      <div class="venue-body">
+        <div class="venue-row">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#7CB342" stroke-width="1.8"/><path d="M12 7v5l3.5 2" stroke="#7CB342" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <span><b data-i18n="hours">开放时间</b>　<span data-i18n="venue2_hours">10:00 – 19:00</span></span>
+        </div>
+        <div class="venue-pandas">
+          <span>安安 An An</span><span>可可 Ke Ke</span>
+        </div>
+        <p style="font-size:13.5px;color:var(--ink-soft)" data-i18n="venue2_p">「安可」组合的新家。馆内为酷爱攀爬的可可加设了多层攀爬架，安安则常常在木架上大展身手。</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="ticket">
+    <h3 data-i18n="ticket_t">出发！前往香港海洋公园</h3>
+    <p data-i18n="ticket_p">地址：香港香港仔海洋公园道180号。乘坐港铁南港岛线至「海洋公园站」，B出口直达正门，两个熊猫场馆均位于海滨园区。</p>
+    <div class="ticket-route">
+      <span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="3" width="14" height="14" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M5 11h14M9 17l-2 4M15 17l2 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="14" r="1.4" fill="currentColor"/><circle cx="15" cy="14" r="1.4" fill="currentColor"/></svg>
+        <span data-i18n="route_mtr">港铁海洋公园站 B出口</span>
+      </span>
+      <span>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" stroke="currentColor" stroke-width="1.8"/></svg>
+        <span data-i18n="route_addr">香港仔海洋公园道180号</span>
+      </span>
+    </div>
+  </div>
+  <p class="visit-note" data-i18n="visit_note">温馨提示：动物展出安排可能因动物状况或现场情况调整，请以园内当日公告为准。</p>
+</section>
+</div>
+
+<!-- ================= Footer ================= -->
+<footer>
+  <svg class="wave" viewBox="0 0 1440 56" preserveAspectRatio="none" aria-hidden="true" style="transform:translateY(-1px) rotate(180deg);margin-top:-55px;position:relative;z-index:1">
+    <path d="M0,32 C240,56 480,8 720,24 C960,40 1200,16 1440,32 L1440,56 L0,56 Z" fill="#013B66"></path>
+  </svg>
+  <div class="footer-inner">
+    <div class="f-brand">
+      <svg width="30" height="30" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="28" cy="26" r="16" fill="#fff" opacity=".9"/><circle cx="72" cy="26" r="16" fill="#fff" opacity=".9"/>
+        <circle cx="50" cy="55" r="36" fill="#FF7A2F"/>
+        <ellipse cx="37" cy="50" rx="8" ry="11" fill="#013B66" transform="rotate(-18 37 50)"/>
+        <ellipse cx="63" cy="50" rx="8" ry="11" fill="#013B66" transform="rotate(18 63 50)"/>
+        <ellipse cx="50" cy="68" rx="7" ry="5" fill="#013B66"/>
+      </svg>
+      <span data-i18n="footer_brand">大熊猫之家 · 香港海洋公园</span>
+    </div>
+    <p data-i18n="footer_desc">本页面汇总公开报道与海洋公园官方资料，向每一位喜爱大熊猫的朋友介绍这个六口之家。页面为粉丝自制介绍页，非香港海洋公园官方网站；如与官方信息有出入，以海洋公园官方公布为准。</p>
+    <div class="footer-tags">
+      <span>乐乐 Le Le</span><span>盈盈 Ying Ying</span><span>加加 Jia Jia</span>
+      <span>得得 De De</span><span>安安 An An</span><span>可可 Ke Ke</span>
+    </div>
+    <div class="f-bottom" data-i18n="footer_bottom">用心制作 · 为保育喝彩 · 请勿投喂野生动物</div>
+  </div>
+</footer>
+
+<!-- ================= Mobile tap bar ================= -->
+<nav class="tapbar" aria-label="Quick navigation">
+  <a href="#family" data-i18n="nav_family_s">家族</a>
+  <a href="#members" data-i18n="nav_members_s">成员</a>
+  <a href="#daily" data-i18n="nav_daily_s">日常</a>
+  <a href="#timeline" data-i18n="nav_timeline_s">历程</a>
+  <a href="#visit" data-i18n="nav_visit_s">参观</a>
+</nav>
+
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
